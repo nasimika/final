@@ -89,6 +89,785 @@ header .navigation .container .nav ul li:hover a {
     color: #808080;
 }
 
+header .gallery {
+    background-image: url("../images/header.jpg");
+    width: 100%;
+    height: 572px;
+    background-size: cover;
+    position: relative;
+}
+
+header .gallery .darkmode {
+    position: absolute;
+    width: 100%;
+    height: 572px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header .gallery .darkmode .title {
+    position: relative;
+    width: 975px;
+    height: 194px;
+    margin: auto;
+    text-align: center;
+    transform: translate(0, 84%);
+}
+
+header .gallery .darkmode .title h2 {
+    font-weight: 800;
+    margin: 0 0 24px 0;
+    font-size: 35px;
+    color: white;
+}
+
+header .gallery .darkmode .title p {
+    margin: 0 0 48px 0;
+    font-size: 28px;
+    color: white;
+}
+
+header .gallery .darkmode .title button {
+    color: #fff;
+    background-color: #3f8dbf;
+    height: 42px;
+    width: 165px;
+    border: none;
+    padding: 0 32px;
+    transition: all ease-in-out 0.5s;
+
+}
+
+header .gallery .darkmode .title button:hover {
+    background-color: #2a6496;
+}
+
+section.services {
+}
+
+section.services .service-albom {
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #dadada;;
+}
+
+section.services .service-albom .information {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+section.services .service-albom .information .item {
+    text-align: center;
+    margin: 32px 0;
+    position: absolute;
+    left: 20%;
+    display: none;
+}
+section.services .service-albom .information .item.active{
+    display: block;
+}
+
+section.services .service-albom .information .item h2 {
+    font-weight: 700;
+    margin: 0 0 16px 0;
+    font-size: 24px;
+    padding: 20px;
+
+}
+
+section.services .service-albom .information .item h2 span {
+    color: #3f8dbf;
+}
+
+section.services .service-albom .information .item p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 910px;
+    margin: auto;
+    color: #949494;
+}
+
+section.services .service-albom .container {
+    height: 50%;
+}
+
+section.services .service-albom .container ul {
+}
+
+section.services .service-albom .container ul li {
+    float: left;
+
+    width: 250px;
+}
+
+section.services .service-albom .container ul li a {
+    position: relative;
+    width: 250px;
+    height: 150px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 90px;
+    border-top: 1px solid #dadada;
+    color:  #dadada;
+}
+
+section.services .service-albom .container ul li a h3 {
+    position: absolute;
+    bottom: 0;
+    transform: translate(50%, 0);
+    font-weight: 600;
+    color: #808080;
+}
+
+section.services .service-albom .container ul li a .dot {
+    background-color: #dadada;
+    width: 11px;
+    height: 11px;
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    left: 48%;
+    bottom:144px;
+}
+
+section.services .service-albom .container ul li a .icon-bulb {
+    background-image: url("../images/sprite-service.png");
+    background-position: 8px -173px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: translate(0, 70%);
+}
+
+section.services .service-albom .container ul li a .icon-rocket {
+    background-image: url("../images/sprite-service.png");
+    background-position: 8px -354px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: translate(0, 70%);
+
+}
+
+section.services .service-albom .container ul li a .icon-flask {
+    background-image: url("../images/sprite-service.png");
+    background-position: 8px 6px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: translate(0, 70%);
+
+}
+
+section.services .service-albom .container ul li a .icon-trophy {
+    background-image: url("../images/sprite-service.png");
+    background-position: 8px -536px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: translate(0, 70%);
+
+}
+section.we-do{
+    background-color: #FBFBFB;
+}
+section.we-do .container .what-we-do {
+    width: 100%;
+    text-align: center;
+    color: #B5B5B5;
+
+}
+
+section.we-do .container .what-we-do h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    padding: 70px 0 20px 0;
+}
+
+section.we-do .container .what-we-do div {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section.we-do .container .what-we-do div .icon {
+    border-bottom: 1px solid #dadada;
+    width: 10px;
+    display: inline;
+    padding: 0 25px;
+    box-sizing: border-box;
+    margin: 0 15px;
+}
+
+section.we-do .container .what-we-do div i {
+    position: relative;
+    top: 9px;
+    font-size: 18px;
+}
+
+section.we-do .container .row {
+}
+
+section.we-do .container .row {
+}
+
+section.we-do .container .row .smaall-row {
+    float: left;
+    margin: 10px;
+}
+
+section.we-do .container .row .smaall-row div {
+}
+
+section.we-do .container .row .smaall-row div .icons-1 {
+    background-image: url("../images/sprite-we-do.png");
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-position: -10px -8px;
+    float: left;
+}
+
+section.we-do .container .row .smaall-row div .icons-2 {
+    background-image: url("../images/sprite-we-do.png");
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-position: -10px -85px;
+    float: left;
+}
+
+section.we-do .container .row .smaall-row div .icons-3 {
+    background-image: url("../images/sprite-we-do.png");
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-position: -10px -307px;
+    float: left;
+}
+
+section.we-do .container .row .smaall-row div .icons-4 {
+    background-image: url("../images/sprite-we-do.png");
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-position: -10px -236px;
+    float: left;
+}
+
+section.we-do .container .row .smaall-row div .icons-5 {
+    background-image: url("../images/sprite-we-do.png");
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-position: -10px -164px;
+    float: left;
+}
+
+section.we-do .container .row .smaall-row div .icons-6 {
+    background-image: url("../images/sprite-we-do.png");
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    background-position: -12px -387px;
+    float: left;
+}
+
+section.we-do .container .row .smaall-row .title {
+    float: right;
+    margin: 0 0 50px 30px;
+}
+
+section.we-do .container .row .smaall-row div {
+
+}
+
+section.we-do .container .row .smaall-row div .title h3 {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+}
+
+section.we-do .container .row .smaall-row div .title p {
+    width: 285px;
+    color: #7499BC;
+    line-height: 23px;
+}
+
+section.projects {
+    background-color: #2C2C2C;
+}
+
+section.projects .container .ourprojects {
+    width: 100%;
+    text-align: center;
+    color: #B5B5B5;
+}
+
+section.projects .container .ourprojects h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    padding: 70px 0 20px 0;
+}
+
+section.projects .container .ourprojects div {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section.projects .container .ourprojects div .icon {
+    border-bottom: 1px solid #dadada;
+    width: 10px;
+    display: inline;
+    padding: 0 25px;
+    box-sizing: border-box;
+    margin: 0 15px;
+}
+
+section.projects .container .ourprojects div i {
+    position: relative;
+    top: 9px;
+    font-size: 18px;
+}
+
+section.projects .container .row .listes div {
+    float: left;
+    margin: 15px;
+}
+
+section.projects .container .row .listes div a {
+}
+
+section.projects .container .row .listes div a img {
+    width: 360px;
+    height: 272px;
+}
+
+section.projects .container .row .button {
+    text-align: center;
+}
+
+section.projects .container .row .button button {
+    border: 2px solid #949494;
+    color: #949494;
+    width: 152px;
+    height: 48px;
+    background-color: #2C2C2C;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+}
+
+section.latest-articles {
+    border-bottom: 1px solid #dadada;
+}
+
+section.latest-articles .container {
+}
+
+section.latest-articles .container .from-the-latest {
+    width: 100%;
+    text-align: center;
+    color: #B5B5B5;
+
+}
+
+section.latest-articles .container .from-the-latest h3 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    padding: 70px 0 20px 0;
+}
+
+section.latest-articles .container .from-the-latest div {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section.latest-articles .container .from-the-latest div .icon {
+    border-bottom: 1px solid #dadada;
+    width: 10px;
+    display: inline;
+    padding: 0 25px;
+    box-sizing: border-box;
+    margin: 0 15px;
+}
+
+section.latest-articles .container .from-the-latest div i {
+    position: relative;
+    top: 9px;
+    font-size: 18px;
+}
+
+section.latest-articles .container .row-l {
+    width: 100%;
+    height: 500px;
+}
+
+section.latest-articles .container .row-l div {
+    float: left;
+    margin: 10px 0;
+}
+
+section.latest-articles .container .row-l div img {
+    float: left;
+}
+
+section.latest-articles .container .row-l div .title {
+    margin: 0 37px;
+}
+
+section.latest-articles .container .row-l div .title h3 {
+    color: #616161;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+section.latest-articles .container .row-l div .title p {
+    width: 360px;
+    margin: 10px 0;
+    line-height: 23px;
+    color: #7499BC;
+    font-weight: 900;
+}
+
+section.latest-articles .container .row-l div .title a {
+    color: #3f8dbf
+}
+
+section.way {
+    background-color: #FBFBFB;
+}
+
+section.way .container {
+}
+
+section.way .container .step-in-our-works {
+    width: 100%;
+    text-align: center;
+    color: #B5B5B5;
+}
+
+section.way .container .step-in-our-works h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    padding: 70px 0 20px 0;
+}
+
+section.way .container .step-in-our-works div {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section.way .container .step-in-our-works div .icon {
+    border-bottom: 1px solid #dadada;
+    width: 10px;
+    display: inline;
+    padding: 0 25px;
+    box-sizing: border-box;
+    margin: 0 15px;
+}
+
+section.way .container .step-in-our-works div i {
+    position: relative;
+    top: 9px;
+    font-size: 18px;
+}
+
+section.way .container .row {
+    width: 100%;
+    height: 750px;
+}
+
+section.way .container .row .part1 {
+    width: 45%;
+    display: inline;
+    float: right;
+    margin: 0 10px;
+    border-left: 1px solid #dadada;
+    padding-left: 50px;
+
+}
+
+section.way .container .row .part1 span {
+    background-image: url("../images/sprite-service.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 64px;
+    border: 1px solid #3f8dbf;
+    background-position: 8px -260px;
+
+}
+
+section.way .container .row .part1 h3 {
+    color: #3f8dbf;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 0;
+
+}
+
+section.way .container .row .part1 p {
+    width: 402px;
+    line-height: 25px;
+    color: #7499BC;
+}
+
+section.way .container .row .part2 {
+    text-align: right;
+    width: 45%;
+    display: inline;
+    float: left;
+    margin: 0 18px;
+    padding-right: 37.5px;
+    border-right: 1px solid #dadada;
+
+}
+
+section.way .container .row .part2 span {
+    background-image: url("../images/sprite-service.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 64px;
+    border: 1px solid #3f8dbf;
+    background-position: 8px -443px;
+    margin-right: 15px;
+
+}
+
+section.way .container .row .part2 h3 {
+    color: #3f8dbf;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 20px 0;
+    width: 402px;
+    position: relative;
+    left: 110px;
+}
+
+section.way .container .row .part2 p {
+    width: 402px;
+    position: relative;
+    left: 110px;
+    line-height: 25px;
+    color: #7499BC;
+
+}
+
+section.way .container .row .part3 {
+    width: 45%;
+    display: inline;
+    float: right;
+    margin: 0 10px;
+    border-left: 1px solid #dadada;
+    padding-left: 50px;
+}
+
+section.way .container .row .part3 span {
+    background-image: url("../images/sprite-service.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 64px;
+    border: 1px solid #3f8dbf;
+    background-position: 8px -85px;
+
+}
+
+section.way .container .row .part3 h3 {
+    color: #3f8dbf;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 20px 0;
+}
+
+section.way .container .row .part3 p {
+    width: 402px;
+    line-height: 25px;
+    color: #7499BC;
+}
+
+section.way .container .row .part4 {
+    text-align: right;
+    width: 45%;
+    display: inline;
+    float: left;
+    margin: 0 18px 0 18px;
+    padding-right: 37.5px;
+    border-right: 1px solid #dadada;
+}
+
+section.way .container .row .part4 span {
+    background-image: url("../images/sprite-service.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 64px;
+    border: 1px solid #3f8dbf;
+    background-position: 8px -622px;
+    margin-right: 15px;
+
+}
+
+section.way .container .row .part4 h3 {
+    color: #3f8dbf;
+    font-size: 14px;
+    font-weight: 800;
+    margin: 20px 0;
+    width: 402px;
+    position: relative;
+    left: 110px;
+}
+
+section.way .container .row .part4 p {
+    width: 402px;
+    position: relative;
+    left: 110px;
+    line-height: 25px;
+    color: #7499BC;
+}
+
+section.get-in-touch {
+    background-image: url("../images/Layer-43.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 737px;
+}
+
+section.get-in-touch .darkmode {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+section.get-in-touch .darkmode .container {
+}
+
+section.get-in-touch .darkmode .container .getintousch {
+    width: 100%;
+    text-align: center;
+    color: #B5B5B5;
+}
+
+section.get-in-touch .darkmode .container .getintousch h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+    padding: 70px 0 20px 0;
+}
+
+section.get-in-touch .darkmode .container .getintousch div {
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+section.get-in-touch .darkmode .container .getintousch div .icon {
+    border-bottom: 1px solid #dadada;
+    width: 10px;
+    display: inline;
+    padding: 0 25px;
+    box-sizing: border-box;
+    margin: 0 15px;
+}
+
+section.get-in-touch .darkmode .container .getintousch div i {
+    position: relative;
+    top: 9px;
+    font-size: 18px;
+}
+
+section.get-in-touch .darkmode .container .form {
+    float: left;
+    width: 50%;
+}
+
+section.get-in-touch .darkmode .container .form input {
+    background-color: rgba(225, 255, 225, 0.2);
+    width: 500px;
+    height: 30px;
+    padding: 12px 0 12px 12px;
+    border-radius: 2px;
+    margin-bottom: 16px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+section.get-in-touch .darkmode .container .form textarea {
+    background-color: rgba(225, 255, 225, 0.2);
+    border: none;
+    width: 500px;
+    border-radius: 2px;
+    padding: 12px 0 12px 12px;
+    font-size: 15px;
+
+}
+
+section.get-in-touch .darkmode .container .form input[type=submit] {
+    color: white;
+    background-color: #3E82AC;
+    border-radius: 2px;
+    width: 113px;
+    height: 48px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 800;
+    margin: 20px 0;
+    padding: 15px;
+
+}
+
+section.get-in-touch .darkmode .container .informarion {
+    width: 50%;
+    float: right;
+}
+
+section.get-in-touch .darkmode .container .informarion h3 {
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+section.get-in-touch .darkmode .container .informarion p {
+    color: #d9d9d9;
+    margin-top: 16px;
+    line-height: 30px;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+section.get-in-touch .darkmode .container .informarion ul {
+    padding-top: 41px;
+}
+
+section.get-in-touch .darkmode .container .informarion ul li {
+    padding: 15px 0;
+    color: #d9d9d9;
+}
+
+section.get-in-touch .darkmode .container .informarion ul li i {
+    margin-right: 5px;
+}
+
+section.get-in-touch .darkmode.container .informarion ul li span {
+}
+
 section.sub-footer {
     background-color: var(--table);
     width: 100%;
@@ -125,7 +904,6 @@ section.sub-footer .container .table ul li p {
     padding-top: 10px;
 
 }
-
 
 footer {
     background-color: var(--footer);
